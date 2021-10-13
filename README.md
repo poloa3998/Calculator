@@ -20,7 +20,7 @@ This project has the capabilites to
 
 ## Outcome of the project/Summary
 
-* Improved knowledge of HTML readability and strucutre
+* Improved knowledge of HTML readability and structure
 * Improved knowledge of CSS classes
 * Better undertanding of grids
 * Better understanding of animations and transitions through CSS
