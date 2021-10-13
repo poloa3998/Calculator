@@ -15,6 +15,9 @@ html {
     text-align: center;
     font-size: 45px;
     padding: 30px 0px;
+    background-color: rgba(70, 202, 255, 0.836);
+    border: 1px solid black;
+    
 }
 
 .main {
@@ -23,6 +26,7 @@ html {
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+    flex: 1;
 
 
 }
@@ -38,8 +42,9 @@ html {
     width: 100%;
     background-color: white;
     border-radius: 10px;
-    height: 80px;
+    height: 100px;
     padding: 15px;
+    margin-bottom: 40px;
     font-size: 50px;
     text-align: right;
 }
@@ -54,14 +59,76 @@ html {
 .calculator-buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-row-start: 1;
     grid-gap: 10px;
     height: 400px;
     padding: 10px;
     
 }
 button {
-    border-radius: 10px;
-    font-size: 40px;
+    border-radius: 100%;
+    font-size: 30px;
 }
 
+button:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+button:active {
+    transition: transform 0.05s ease-in-out;
+    transform: scale(1);
+}
+.clear-all, .delete {
+    background-color: rgb(252, 57, 57);
+    color: white;
+    border: none;
+}
+.clear-all:hover, .delete:hover {
+    background-color: rgb(255, 108, 108);
+}
 
+.operator{
+    background-color: rgb(255, 174, 0);
+    color: white;
+}
+.operator:hover {
+    background-color: rgb(255, 201, 85);
+}
+.sign {
+    background-color: rgb(85, 231, 117);
+}
+.sign:hover {
+    background-color: rgb(149, 248, 162);
+}
+.equal-sign {
+    background-color: rgba(0, 162, 255, 0.842);
+    border: none;
+    
+
+}
+.equal-sign:hover {
+    background-color: rgba(68, 187, 255, 0.986);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(227, 183, 238);
+    border: 1px black solid;
+  }
+  
+  .fa-github {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .fa-github:hover {
+    transform: rotate(360deg) scale(1.2);
+  }
