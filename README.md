@@ -2,7 +2,7 @@
 
 [**Live demo**](https://poloa3998.github.io/Calculator/)
 
-# Etch-a-Sketch
+# Calculator
 
 A project that's meant to create a calculator with basic functionality by using only HTML, CSS, and vanilla JS.
 
