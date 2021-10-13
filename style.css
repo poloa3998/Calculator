@@ -66,6 +66,7 @@ html {
 button {
     border-radius: 100%;
     font-size: 30px;
+    border: none;
 }
 
 button:hover {
@@ -79,7 +80,6 @@ button:active {
 .clear-all, .delete {
     background-color: rgb(252, 57, 57);
     color: white;
-    border: none;
 }
 .clear-all:hover, .delete:hover {
     background-color: rgb(255, 108, 108);
@@ -100,7 +100,6 @@ button:active {
 }
 .equal-sign {
     background-color: rgba(0, 162, 255, 0.842);
-    border: none;
     
 
 }
