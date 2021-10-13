@@ -136,7 +136,7 @@ function inputDigits(digit) {
     }
     else {
     calculator.displayValue = displayValue + digit;
-    calculator.displayValue = calculator.displayValue.substring(0, 16);
+    calculator.displayValue = calculator.displayValue.substring(0, 9);
     }
     console.log(calculator);
 }
