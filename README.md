@@ -11,6 +11,7 @@ A project that's meant to create a calculator with basic functionality by using 
 This project has the capabilites to
 * Add, subtract, multiply, divide, change sign to postive or negative, and find the percent of a number.
 * Allows the user to clear the calculator or delete one number at a time.
+* Has keyboard support.
 
 ## Built with
 
