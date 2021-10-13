@@ -174,6 +174,7 @@ function operatorHandler(nextOperator) {
     }
     calculator.secondOperandNeeded = true;
     calculator.operator = nextOperator;
+    
 }
 
 function calculate(firstOperand, secondOperand, operator ) {
