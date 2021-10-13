@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /* footer support */
+  position: relative;
+  min-height: 100%;
+}
+.header {
+    text-align: center;
+    font-size: 45px;
+    padding: 30px 0px;
+}
+
+.main {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+
+}
+.calculator {
+    background-color: black;
+    width: 500px;
+    padding: 40px;
+    border-radius: 10px;
+    
+
+}
+.calculator-screen {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    height: 80px;
+    padding: 15px;
+    font-size: 50px;
+    text-align: right;
+}
+
+.delete-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 15px 10px;
+    height: 125px;
+}
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    height: 600px;
+    padding: 10px;
+    
+}
+button {
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+
